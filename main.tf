@@ -1,8 +1,4 @@
 
-output "token" {
-  value = var.DIGITAL_OCEAN_TOKEN
-}
-
 data "digitalocean_kubernetes_versions" "kub_version" {
   version_prefix = "1.32."
 }
