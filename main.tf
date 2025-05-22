@@ -1,5 +1,5 @@
 
-output "token: " {
+output "token" {
   value = var.DIGITAL_OCEAN_TOKEN
 }
 
