@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "digitalocean" {
-  token = environment("DIGITALOCEAN_TOKEN")
+  token = var.DIGITAL_OCEAN_TOKEN
 }
