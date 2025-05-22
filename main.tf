@@ -16,7 +16,7 @@ resource "digitalocean_kubernetes_cluster" "golf-test" {
 
   node_pool {
     name       = "default"
-    size       = "s-2vcpu-2gb"
+    size       = "s-2vcpu-2gb-amd"
     node_count = 1
   }
 }
