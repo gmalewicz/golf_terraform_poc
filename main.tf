@@ -1,6 +1,6 @@
 
 output "token" {
-  value = DIGITAL_OCEAN_TOKEN
+  value = var.DIGITAL_OCEAN_TOKEN
 }
 
 data "digitalocean_kubernetes_versions" "kub_version" {
