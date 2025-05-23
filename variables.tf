@@ -5,3 +5,9 @@ variable "do_region" {
   type        = string
   default     = "ams3"
 }
+
+variable "node_size" {
+  description = "Size ofthe notde pool"
+  type        = string
+  default     = "s-2vcpu-2gb-amd"
+}
